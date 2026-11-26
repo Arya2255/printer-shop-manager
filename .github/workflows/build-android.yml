@@ -35,8 +35,8 @@ jobs:
           echo "ANDROID_HOME=$ANDROID_HOME" >> $GITHUB_ENV
           echo "ANDROID_SDK_ROOT=$ANDROID_SDK_ROOT" >> $GITHUB_ENV
 
-      - name: Get Flutter dependencies
-        run: flutter pub get
+      - name: Install Flet
+        run: pip install flet flet-desktop
 
       - name: Build APK
         run: flet build apk --yes --project printer-shop-manager --org ir.local --product "مدیر تعمیرگاه پرینتر" --bundle-id ir.local.printershop --android-permissions android.permission.INTERNET=true android.permission.READ_MEDIA_IMAGES=true android.permission.READ_MEDIA_VIDEO=true
