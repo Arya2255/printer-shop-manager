@@ -710,7 +710,6 @@ name = "printer-shop-manager"
 version = "0.1.0"
 source = { editable = "." }
 dependencies = [
-    { name = "fastapi" },
     { name = "flet" },
     { name = "flet-desktop" },
     { name = "flet-web" },
@@ -726,7 +725,6 @@ dev = [
 
 [package.metadata]
 requires-dist = [
-    { name = "fastapi", specifier = ">=0.143,<1" },
     { name = "flet", specifier = "==1.0.4" },
     { name = "flet-desktop", specifier = "==1.0.4" },
     { name = "flet-web", specifier = "==1.0.4" },

@@ -5,7 +5,6 @@ description = "Persian printer repair, inventory and sales manager"
 readme = "README.md"
 requires-python = ">=3.12,<3.15"
 dependencies = [
-  "fastapi>=0.143,<1",
   "flet==1.0.4",
   "flet-desktop==1.0.4",
   "flet-web==1.0.4",
