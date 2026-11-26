@@ -716,7 +716,6 @@ dependencies = [
     { name = "flet-web" },
     { name = "httpx" },
     { name = "jdatetime" },
-    { name = "uvicorn" },
 ]
 
 [package.dev-dependencies]
@@ -733,7 +732,6 @@ requires-dist = [
     { name = "flet-web", specifier = "==1.0.4" },
     { name = "httpx", specifier = ">=0.28,<1" },
     { name = "jdatetime", specifier = ">=5.2,<6" },
-    { name = "uvicorn", specifier = ">=0.38,<1" },
 ]
 
 [package.metadata.requires-dev]
