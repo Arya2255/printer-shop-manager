@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+data/
+dist/
+build/
+.flet/
+workflow-dashboard.html
+screenshots/
